@@ -56,7 +56,7 @@ par(mfcol = c(2,2))
 
 with(energy3, plot(DateTime, Global_active_power,
                    type = "l",
-                   ylab="Global Active Power (kilowatts)",
+                   ylab="Global Active Power",
                    xlab = ""))
 
 

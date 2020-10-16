@@ -2,3 +2,4 @@
 .Rhistory
 data/data.zip
 data/household_power_consumption.txt
+.DS_Store

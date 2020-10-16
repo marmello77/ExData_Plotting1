@@ -35,7 +35,8 @@ energy2$Date <- as.Date(energy2$Date, format = "%d/%m/%Y")
 #Check the data
 energy2
 
-#Subset only the days to be analyzed
+#Subset only the days to be analyzed and create a new variable by combining
+#date and time info.
 energy3 <- energy2 %>%
     subset(Date >= "2007-02-01" & Date <= "2007-02-02") %>%
     mutate(DateTime = paste(Date, Time)) %>%
